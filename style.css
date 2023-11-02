@@ -82,12 +82,22 @@ main {
 
 }
 
+
+
 .garamond {
     font-family: 'EBGaramond'
 }
 
+.openSans {
+    font-family: 'Open Sans'
+}
+
 .italic {
     font-style: italic;
+}
+
+.normal {
+    font-style: normal;
 }
 
 .thin {
@@ -100,37 +110,78 @@ main {
     font-style: normal;
 }
 
+
+
 .weight600 {
     font-weight: 600;
+}
+
+.weight700 {
+    font-weight: 700;
+}
+
+.sBold {
+    font-weight: 800;
 }
 
 h1 {
     font-size: 2.625rem;
 }
 
+
 .recipeCardsContainer {
-    margin: 0 2.5rem;
+    margin: .5rem 2.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 18vh);
+    grid-template-rows: repeat(4, 25vh);
     grid-gap: 1rem;
     grid-template-areas:
-        "greenItem greenItem greenItem"
         "greenItem greenItem greenItem"
         "greenItem greenItem greenItem"
         "purpleItem redItem blueItem"
         "purpleItem redItem blueItem"
 }
 
+.pancakes {
+    width: fit-content;
+}
+
 .recipeCard {
+    display: flex;
     min-height: 6rem;
     min-width: 6rem;
 }
 
 .recipeCategoriesContainer {
+    margin: .5rem 2.5rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
+}
+
+.heartIcon {
+    width: 18px;
+    height: 17px;
+    padding: 2px;
+}
+
+#dotOptionsIcon {
+    height: 13px;
+    width: 3px;
+    padding: 2px;
+}
+
+
+#largeCardOptions {}
+
+#smallRoundBtn {
+    width: 3.25rem;
+    height: 3.25rem;
+    border: none;
+    border-radius: 1.625rem;
+    background-color: #FFE350;
+    font-size: 2rem;
+    padding: 0;
 }
 
 .circleRecipe {
@@ -155,6 +206,7 @@ h3 {
 
 .quoteContainer {
     position: relative;
+    margin-top: 6.5rem;
     margin-right: 5rem;
 }
 
@@ -208,8 +260,8 @@ h2 {
 }
 
 .greenBg {
-    background-color: green;
     grid-area: greenItem;
+    background-color: green;
 }
 
 .purpleBg {
@@ -241,14 +293,17 @@ button.recipeBtn {
 }
 
 #jumbotronSection {
+    margin-top: 6.5rem;
     display: flex;
     justify-content: center;
 }
 
 .jumbotron {
+    padding: 4rem 0 3rem 0;
     background-image: url(/assets/jumbotronBg.png);
     width: 1000px;
     height: 416px;
+    background-repeat: no-repeat;
     display: flex;
     flex-flow: column wrap;
     align-content: center;
@@ -263,6 +318,10 @@ button.recipeBtn {
 }
 
 #seperator {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem 0;
+    align-self: center;
     width: 50px;
     height: 3px;
     background-color: white;
@@ -271,10 +330,15 @@ button.recipeBtn {
 
 .menuBtn {
     background-color: #FFE350;
+    width: 12rem;
+    padding: 1.5rem 1.5rem;
+    border-radius: 2.5rem;
+    align-self: center;
 }
 
 
 footer {
+    margin-bottom: 2rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
