@@ -198,6 +198,7 @@ h1 {
 
 #largeCardOptions {
     display: flex;
+    align-items: center;
     justify-content: end;
 }
 
@@ -284,6 +285,8 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    height: 20rem;
 
 }
 
@@ -292,8 +295,20 @@ h1 {
     height: 200px;
 }
 
+.roundH3 {
+    margin-top: 2rem;
+    font-size: .875rem;
+    font-weight: 800;
+}
+
 .circleText {
     text-align: center;
+    font-size: .75rem;
+    padding: 0 2.52rem;
+}
+
+#burgerP {
+    padding: 0 2rem;
 }
 
 h3 {
@@ -313,7 +328,7 @@ h3 {
 }
 
 h2 {
-    font-family: 'EBGaramond';
+    font-family: 'EB Garamond';
     font-size: 2.625rem;
     font-style: italic;
     font-weight: 400;
@@ -414,7 +429,7 @@ button.recipeBtn {
 }
 
 .menuText {
-    font-size: .875rem;
+    font-size: .75rem;
 }
 
 #seperator {
@@ -450,5 +465,6 @@ footer {
 }
 
 .twoRem {
+    padding-top: 1rem;
     font-size: 2rem;
 }
