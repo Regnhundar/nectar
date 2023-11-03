@@ -3,13 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #DADEE3;
-
 }
 
 a {
@@ -18,7 +16,6 @@ a {
     font-size: 12px;
     font-weight: 700;
 }
-
 
 div.wrapper {
     display: flex;
@@ -47,8 +44,6 @@ nav {
     border-bottom: #222222 solid 2px;
 }
 
-
-
 .headerIcons {
     display: flex;
 }
@@ -67,7 +62,6 @@ nav {
 }
 
 #burger {
-
     padding: 1rem;
     border-left: #22222233 solid 1px;
 }
@@ -79,10 +73,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     align-self: center;
-
 }
-
-
 
 .garamond {
     font-family: 'EBGaramond'
@@ -110,8 +101,6 @@ main {
     font-style: normal;
 }
 
-
-
 .weight600 {
     font-weight: 600;
 }
@@ -127,7 +116,6 @@ main {
 h1 {
     font-size: 2.625rem;
 }
-
 
 .recipeCardsContainer {
     margin: .5rem 2.5rem;
@@ -168,7 +156,6 @@ h1 {
     margin: 1rem 0;
     display: flex;
     width: 4.5rem;
-
 }
 
 .ratingStars {
@@ -186,7 +173,6 @@ h1 {
     font-size: 0.625rem;
     font-family: 'Lato';
     font-weight: 700;
-
 }
 
 .largeCardArticle {
@@ -279,15 +265,12 @@ h1 {
     font-size: .75rem;
 }
 
-
-
 .circleRecipe {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     height: 20rem;
-
 }
 
 .circleImg {
@@ -377,7 +360,6 @@ h2 {
 }
 
 .purpleBg {
-
     background-color: #FFFFFF;
     grid-area: purpleItem;
 }
@@ -447,7 +429,6 @@ button.recipeBtn {
     background-color: #FFE350;
     align-self: center;
 }
-
 
 footer {
     margin-bottom: 2rem;
