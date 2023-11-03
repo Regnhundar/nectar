@@ -77,7 +77,7 @@ main {
     min-height: 2rem;
     min-width: 100px;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     align-self: center;
 
 }
@@ -133,23 +133,14 @@ h1 {
     margin: .5rem 2.5rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 25vh);
     grid-gap: 1rem;
     grid-template-areas:
         "greenItem greenItem greenItem"
-        "greenItem greenItem greenItem"
-        "purpleItem redItem blueItem"
         "purpleItem redItem blueItem"
 }
 
 .pancakes {
-    width: fit-content;
-}
-
-.recipeCard {
     display: flex;
-    min-height: 6rem;
-    min-width: 6rem;
 }
 
 .recipeCategoriesContainer {
@@ -171,10 +162,50 @@ h1 {
     padding: 2px;
 }
 
+#rating {
+    margin: 1rem 0;
+    display: flex;
+    width: 6.5rem;
 
-#largeCardOptions {}
+}
+
+#ratingNumber {
+    margin-left: auto;
+}
+
+.largeCardArticle {
+    padding: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: start;
+}
+
+#largeCardOptions {
+    display: flex;
+    justify-content: end;
+}
+
+.veganText {
+    padding: 0 2rem 1.5rem 0;
+    font-size: 1.25rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.pancakeP {
+    font-size: .75rem;
+}
+
+.breakfastH3 {
+    margin: 0 0 .5rem 0;
+    font-family: 'EB Garamond';
+    font-size: .875rem;
+    font-style: italic;
+    align-self: start;
+}
 
 #smallRoundBtn {
+
     width: 3.25rem;
     height: 3.25rem;
     border: none;
@@ -259,22 +290,26 @@ h2 {
     text-decoration: underline;
 }
 
-.greenBg {
+.largeCard {
+    display: flex;
     grid-area: greenItem;
     background-color: green;
 }
 
 .purpleBg {
+
     background-color: purple;
     grid-area: purpleItem;
 }
 
 .redBg {
+
     background-color: red;
     grid-area: redItem;
 }
 
 .blueBg {
+
     background-color: blue;
     grid-area: blueItem;
 }
