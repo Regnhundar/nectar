@@ -44,18 +44,20 @@
                 <article class="largeCard">
                     <img class="pancakes" src="assets/pancakes.png" alt="Bild på pannkakor">
 
-                    <aside class="largeCardArticle greenBg">
+                    <aside class="largeCardArticle">
                         <aside id="largeCardOptions">
                             <img class="heartIcon" src="assets/heart.png" alt="Hjärta">
                             <img id="dotOptionsIcon" src="assets/mer.png" alt="Tre punkter">
                         </aside>
-                        <article id="rating">
-                            <p id="ratingStars">&starf;&starf;&starf;&starf;&star;</p>
-                            <p id="ratingNumber">882</p>
+                        <article class="articlePadd rating">
+                            <p class="ratingStars"><span class="filledStars"> &starf;&starf;&starf;&starf;</span>&starf;
+                            </p>
+                            <p class="ratingNumber">882</p>
                         </article>
-                        <h3 class="breakfastH3">Breakfast</h3>
-                        <h2 class="veganText">VEGAN BLUEBERRY PANCAKES WITH MANDARINE SAUCE & SPICES</h2>
-                        <p class="pancakeP">Jelly beans sesame snaps sweet roll sesame snaps gummies dragée tart.
+                        <h3 class="breakfastH3 articlePadd">Breakfast</h3>
+                        <h2 class="veganText articlePadd">VEGAN BLUEBERRY PANCAKES WITH MANDARINE SAUCE & SPICES</h2>
+                        <p class="pancakeP articlePadd">Jelly beans sesame snaps sweet roll sesame snaps gummies dragée
+                            tart.
                             Croissant macarooncroissant cake chups.
                         </p>
                         <button id="smallRoundBtn">&#8594;</button>
@@ -64,11 +66,58 @@
 
 
 
-                <section class="smallCard purpleBg"><img src="assets/breakfast.png" alt="Bild på frukost.">
-                </section>
-                <section class="smallCard redBg"><img src="assets/lunch.png" alt="Bild på lunch"> </section>
-                <section class="smallCard blueBg"><img src="assets/dinner.png" alt="Bild på middag">
-                </section>
+                <figure class="smallCard purpleBg">
+                    <img src="assets/breakfast.png" alt="Bild på frukost.">
+
+
+
+                    <article class="figPadding">
+                        <figcaption class="smallCardHeader">
+                            <h3 class="smallCardHeadline">BREAKFAST</h3><img id="dotOptionsIcon" src="assets/mer.png"
+                                alt="Tre punkter">
+                        </figcaption>
+                        <p class="pancakeP">Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish
+                            okra.</p>
+                        <figcaption class="rating">
+                            <p class="ratingStars"><span class="filledStars"> &starf;&starf;&starf;</span>&starf;&starf;
+                            </p>
+                            <p class="ratingNumber">321</p>
+                        </figcaption>
+
+                    </article>
+
+
+                </figure>
+                <figure class="smallCard redBg"><img src="assets/lunch.png" alt="Bild på lunch">
+                    <article class="figPadding">
+                        <figcaption class="smallCardHeader">
+                            <h3 class="smallCardHeadline">LUNCH</h3><img id="dotOptionsIcon" src="assets/mer.png"
+                                alt="Tre punkter">
+                        </figcaption>
+                        <p class="pancakeP">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette
+                            tatsoi.</p>
+                        <figcaption class="rating">
+                            <p class="filledStars">&starf;&starf;&starf;&starf;&starf;
+                            </p>
+                            <p class="ratingNumber">226</p>
+                        </figcaption>
+
+                    </article>
+
+
+                </figure>
+                <figure class="smallCard blueBg"><img src="assets/dinner.png" alt="Bild på middag">
+                    <article class="figPadding">
+                        <figcaption class="dinnerCaption">
+                            <h3 class="h3Dinner">DINNER</h3>
+                            <p class="pDinner">READERS FAVORITE RECIPES</p>
+
+                        </figcaption>
+
+                    </article>
+
+
+                </figure>
             </article>
             <button class="recipeBtn thicc">VIEW ALL RECIPES</button>
 
